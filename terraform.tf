@@ -6,7 +6,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "example" {
   name     = " JumpVM-RG-1576863"
-  location = "East USc"
+  location = "East US"
 }
 
 resource "azurerm_storage_account" "example" {
